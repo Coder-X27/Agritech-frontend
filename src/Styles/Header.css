@@ -1,0 +1,124 @@
+#header{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(134, 127, 127);
+    z-index: 100000000;
+}
+.navbar1{
+    display: flex;
+    width: 100%;
+    height: 5vw;
+    justify-content: center;
+    align-items:center;
+    max-height: 20vh;
+    border-bottom: 2px solid black;
+    padding: 1vmax;
+    z-index: 1000;
+}
+#carouselExampleSlidesOnly{
+    height: 90vh;
+}
+.navLogo{
+    width: 5%;
+}
+.navLogo img{
+    width: 100%;
+}
+.navLinks{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLink{
+    margin: auto;
+    font-size: 1.3vmax;
+    /* letterspace:.2vmax; */
+}
+.carousel-inner{
+    max-height: 90vh;
+}
+.carousel-item{
+    height: 90vh;
+}
+.loginout{
+    width: auto;
+    padding: 1vmax 1.5vmax;
+    background-color: crimson;
+    border-bottom: 2px solid black;
+    box-shadow: 0 5px 10px 0 #000;
+}
+.sectionTitle{
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}
+.sectionTitle>span{
+    color: crimson;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    flex-direction: column;
+}
+.aboutCards{
+    display: flex;
+    padding: 2vmax;
+    flex-wrap: wrap;
+}
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 19%;
+    max-width: 20%;
+    padding: 2vmax;
+    height: 60vh;
+    border-bottom: 5px solid #002E94;
+    box-shadow: 0px 0px 20px 0px grey;
+    margin: 2vmax;
+    transition: all .5s ease  ;
+}
+.aboutCard:hover{
+    transform: scale(1.1);
+    border-bottom: 10px solid #002E94;
+}
+.aboutCard:nth-child(1):hover{
+    box-shadow: 0px 0px 10px 1px royalblue;
+}
+.aboutCard:nth-child(2):hover{
+    box-shadow: 0px 0px 10px 1px green;
+}
+.aboutCard:nth-child(3):hover{
+    box-shadow: 0px 0px 10px 1px yellow;
+}
+.aboutCard:nth-child(4):hover{
+    box-shadow: 0px 0px 10px 1px pink;
+}
+.aboutlogo{
+    width: 100%;
+}
+.aboutlogo>img{
+    border-radius: 20%;
+    width: 40%;
+}
+.seperator{
+    width: 50%;
+    background-color: crimson;
+    height: 3px;
+    border-radius: 20px;
+    margin-bottom: 1vmax;
+}
+.aboutTitle{
+    font-size: 1.4vmax;
+    color: #002E94;
+    font-weight: 600;
+    margin-bottom: 1vmax;
+    letter-spacing: .1vmax;
+}

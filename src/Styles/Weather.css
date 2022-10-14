@@ -1,0 +1,9 @@
+.WeatherTitle{
+    font-size: 3vmax;
+}
+.city{
+    display: flex;
+    background:url(../images/background.jpg) center center/cover;
+    width: 100%;
+    height: 100vh;
+}
