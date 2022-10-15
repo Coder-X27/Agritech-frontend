@@ -54,7 +54,7 @@ function Forcast(props) {
         />
       </div>
       <div className="today-weather">
-        <h3>{props.weather}</h3>
+        <h3 className="weather">{props.weather}</h3>
         <div className="search-box">
           <input
             type="text"
@@ -76,7 +76,7 @@ function Forcast(props) {
             <div>
               {" "}
               <li className="cityHead">
-                <p>
+                <p className="weathercity">
                   {weather.name}, {weather.sys.country}
                 </p>
                 <img

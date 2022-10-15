@@ -1,7 +1,10 @@
 import React from 'react'
-
+import '../Styles/Header.css'
+import img1 from '../images/1.png'
+import img2 from '../images/2.png'
+import img3 from '../images/3.png'
+import img4 from '../images/4.png'
 const About = () => {
-    const img1 = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/35302887-bf5b-4c46-a9e0-fc72c65ffb50/d2zaii3-22e60a2b-a164-44bd-a487-cb16589a4799.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM1MzAyODg3LWJmNWItNGM0Ni1hOWUwLWZjNzJjNjVmZmI1MFwvZDJ6YWlpMy0yMmU2MGEyYi1hMTY0LTQ0YmQtYTQ4Ny1jYjE2NTg5YTQ3OTkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.hm2OTe9W756fttOuga2kQ5lWBIWQcTyfHkS8qvTygyQ"
     return (
 
         <div id='section'>
@@ -17,7 +20,7 @@ const About = () => {
                 </div>
                 <div className="aboutCard">
                     <div className="aboutlogo">
-                        <img src={img1} alt="" />
+                        <img src={img2} alt="" />
                     </div>
                     <div className="aboutTitle">Sense the weather</div>
                     <div className="seperator"></div>
@@ -25,7 +28,7 @@ const About = () => {
                 </div>
                 <div className="aboutCard">
                     <div className="aboutlogo">
-                        <img src={img1} alt="" />
+                        <img src={img3} alt="" />
                     </div>
                     <div className="aboutTitle">Pest alert on Mobile Phones</div>
                     <div className="seperator"></div>
@@ -33,11 +36,11 @@ const About = () => {
                 </div>
                 <div className="aboutCard">
                     <div className="aboutlogo">
-                        <img src={img1} alt="" />
+                        <img src={img4} alt="" />
                     </div>
                     <div className="aboutTitle">Sowing and Harvesting Activities</div>
                     <div className="seperator"></div>
-                    <div className="aboutDesc"></div>
+                    <div className="aboutDesc">From sowing till harvesting all information regarding the whole process is available on our website including all preservation techniques and pesticides.</div>
                 </div>
             </div>
             </div>

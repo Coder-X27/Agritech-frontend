@@ -1,8 +1,107 @@
+.flexi{
+    display: flex;
+    background:url(../images/background.jpg) center center/cover;
+    width: 100%;
+    height: 100vh;
+}
 .WeatherTitle{
     font-size: 3vmax;
+    color: white;
+    text-align: end;
+    padding:0 1vmax;
+}
+.mb-icon{
+    text-align: end;
 }
 .city{
     display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: end;
+    padding: 1vmax;
+}
+.transparent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background:url(../images/city.jpg) top /cover;
+    height: 70vh;
+    padding: 2vmax;
+}
+.transparent{
+    background:url(../images/city.jpg) center center/cover;
+    position: relative;
+    z-index: 1;
+}
+.transparent::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+.date-time{
+    font-size: 1.5vmax;
+    color: white;
+    display: flex;
+    margin-top: 5vmax;
+    padding:  1vmax;
+}
+.forecast{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.forecast{
+    margin-top: 7.5vmax;
+    width: 30%;
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+.forecast::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+.search-box{
+    display: flex;
+    text-align: end;
+}
+.weather{
+    text-align: center;
+    font-size: 3vmax;
+}
+.search-bar{
+    padding: .5vmax 1vmax;
+}
+.img-box{
+    margin-left: 1vmax;
+}
+.weathercity{
+    margin-top: 1vmax;
+    text-align: center;
+    font-size: 2vmax;
+}
+.flexi2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background:url(../images/background.jpg) center center/cover;
     width: 100%;
     height: 100vh;

@@ -1,0 +1,73 @@
+#dataSchowcase,.adminPanel{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.flexer{
+    width: 80%;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchItem{
+    margin: 1vmax 0vmax 3vmax 0vmax;
+}
+.dataStorage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.dataBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    min-height: 15rem;
+    padding: 2vmax;
+    box-shadow: 0px 0px 12px 0px grey;
+    transition: all .4s ease-in-out;
+    margin: 2vmax 0;
+}
+.dataBox:hover{
+    box-shadow: 0px 0px 8px 0px grey;
+    transform: scale(1.05);
+}
+.dataBox:hover .dataimg{
+    transform: scale(1.5);
+}
+.dataimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    transition: all 1s ease;
+}
+.dataimg>img{
+    width: 50%;
+}
+.datainfo1,.datainfo2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 35%;
+    text-align: start;
+}
+.datainfo{
+    font-size: 1.1vmax;
+    color: grey;
+    
+}
+.datainfo>span{
+    font-size: 1.1vmax;
+    font-weight: 400;
+    color: black;
+
+}

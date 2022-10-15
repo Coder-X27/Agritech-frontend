@@ -1,0 +1,51 @@
+.ft {
+  justify-content: center;
+  align-items: center;
+}
+.adminpic {
+  width: 100%;
+}
+.userUpdate,.cropop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+}
+.updateuser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vmax;
+  flex-direction: column;
+  width: 100%;
+  min-height: 65vh;
+}
+.fields{
+    padding: 1vmax 2vmax;
+    margin: 1vmax 0;
+    border-radius: 1vmax;
+    border: none;
+    /* border-bottom: 5px solid grey; */
+    box-shadow: 0 0 10px 0 grey;
+    font-size: 1.3vmax;
+    width: 40%;
+}
+.adminsubmit{
+    color: crimson;
+    padding: 1vmax 2vmax;
+    background-color: transparent;
+    width: 10%;
+    border-radius: 1vmax;
+    font-size: 1.3vmax;
+    text-align:center;
+    border: 1px solid crimson;
+    transition: all 1s ease;
+}
+.adminsubmit:hover{
+    transform: scale(1.1);
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}

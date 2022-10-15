@@ -8,16 +8,22 @@ import Home from './Component/Home';
 import Header from './Component/Header';
 import CurrentLocation from "./currentLocation";
 import About from './Component/About';
+import Login from './Component/Login';
+import DataShowcase from './Component/DataShowcase';
+import Admin from './Component/Admin';
 function App() {
   return (
     <Router>
+    <div id='google_translate_element'>
+    <Header/>
       <Routes>
-      {/* <Route path='/' element={<Header/>}/> */}
-        {/* <Route exact path='/' element={<Header />} /> */}
-
+        <Route exact path='/dataanalysis' element={<DataShowcase /> } />
+        <Route exact path='/login' element={<Login /> } />
         <Route exact path='/about' element={<About /> } />
-        <Route exact path='/' element={<CurrentLocation /> } />
+        <Route exact path='/weather' element={<CurrentLocation /> } />
+        <Route exact path='/admin' element={<Admin /> } />
       </Routes>
+    </div>
     </Router>
   );
 }

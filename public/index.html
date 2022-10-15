@@ -11,12 +11,12 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <style>
+  <!-- <style>
     #google_translate_element {
       padding: 0;
-      position: absolute;
+      /* position: absolute; */
       right: 42px;
-      top: 12px;
+      /* top: 12px; */
     }
 
     .goog-te-banner-frame.skiptranslate,
@@ -56,8 +56,7 @@
       border-right: none !important;
       border-radius: 4px
     }
-  </style>
-  
+  </style> -->
   <script>(function () {
     var gtConstEvalStartTime = new Date();
     var c = "Translate", g = this || self; function h(a, b) { a = a.split("."); var d = g; a[0] in d || "undefined" == typeof d.execScript || d.execScript("var " + a[0]); for (var e; a.length && (e = a.shift());)a.length || void 0 === b ? d[e] && d[e] !== Object.prototype[e] ? d = d[e] : d = d[e] = {} : d[e] = b }
@@ -91,7 +90,7 @@
     if (_isNS('google.translate.Element')) { return } (function () { var c = _setupNS('google.translate._const'); c._cest = gtConstEvalStartTime; gtConstEvalStartTime = undefined; c._cl = 'en-GB'; c._cuc = 'googleTranslateElementInit'; c._cac = ''; c._cam = ''; c._ctkk = '450465.1037093230'; var h = 'translate.googleapis.com'; var s = (true ? 'https' : window.location.protocol == 'https:' ? 'https' : 'http') + '://'; var b = s + h; c._pah = h; c._pas = s; c._pbi = b + '/translate_static/img/te_bk.gif'; c._pci = b + '/translate_static/img/te_ctrl3.gif'; c._pli = b + '/translate_static/img/loading.gif'; c._plla = h + '/translate_a/l'; c._pmi = b + '/translate_static/img/mini_google.png'; c._ps = b + '/translate_static/css/translateelement.css'; c._puh = 'translate.google.com'; _loadCss(c._ps); _loadJs(b + '/translate_static/js/element/main_en-GB.js'); })();
   })();
   function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'vi', includedLanguages: 'en,en-GB,id,en-US,vi,ru,ko,ja,it,hi,bn,fr,es,de,ar,tr,', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element') } $(".hover").mouseleave(function () { $(this).removeClass("hover") });
-  </script>
+  </script>  
   <title>React App</title>
 </head>
 
