@@ -1,0 +1,93 @@
+.intro {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  background: url(../images/sliderimage1.jpg)
+    center center no-repeat;
+  /* background-color: rgba(0, 0, 0, 0); */
+  background-size: auto;
+  background-color: #e5e5e5;
+  background-size: cover;
+  -o-background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.671);
+  padding: 2vmax;
+}
+
+.homebtn{
+    padding: 1vmax 2vmax ;
+    background-color: crimson;
+    border:2px solid black;
+    color:white;
+    transition: all .4s ease;
+}
+.homebtn:hover{
+    background-color: transparent;
+    border:2px solid crimson;
+    color:crimson;
+}
+.sample{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 4vmax;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5,1,0.89,1);
+}
+@keyframes scale {
+    100%{
+        transform: scale(1);
+    }
+}
+
+.intro h1 span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+
+span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+
+.intro p {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+header .intro-text {
+  padding-top: 350px;
+  padding-bottom: 200px;
+  text-align: center;
+}

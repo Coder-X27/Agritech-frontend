@@ -16,7 +16,8 @@ function App() {
     <Router>
     <div id='google_translate_element'>
     <Header/>
-      <Routes>
+    <Routes>
+        <Route exact path='/' element={<Home /> } />
         <Route exact path='/dataanalysis' element={<DataShowcase /> } />
         <Route exact path='/login' element={<Login /> } />
         <Route exact path='/about' element={<About /> } />
